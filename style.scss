@@ -1,0 +1,16 @@
+body {
+  background: #20262e;
+  padding: 20px;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+}
+
+#doesMatch {
+  &.match {
+    color: #2ecc71;
+  }
+
+  &.no-match {
+    color: #c0392b;
+  }
+}
